@@ -1,0 +1,387 @@
+/*GENERAL*/
+
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif,"Noto Sans", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background: #D5D8DC;
+}
+
+table { /* KNNY */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td { /* KNNY */
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) { /* KNNY */
+    background-color: #f2f2f2;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+button {
+    border-radius: 0;
+}
+
+
+*,
+*::before, /* important for boxes*/
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+#giris {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+
+
+
+
+/*GENERAL*/
+
+
+
+/* *******************************************************  */
+
+
+
+/* START: Navigation Bar (Gezinme Çubuğu) / Sayfalar */
+
+.navbar-font {
+    font-family: 'Geneva';
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: #17202A;
+    overflow: hidden;
+}
+
+    .navbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+
+        .navbar a:hover {
+            background-color: #D5D8DC;
+            color: black;
+        }
+        /* mouse over link */
+
+
+        .navbar a.active {
+            background-color: #3F51B5;
+            color: white;
+        }
+/* selected link */
+
+
+.logo-special {
+    position: relative;
+    background-color: #D5D8DC;
+}
+
+/* FINISH: Navigation Bar (Gezinme Çubuğu) / Sayfalar */
+
+
+
+/* START: Designer and Warning Box*/
+
+.d_240298 {
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 30%;
+}
+
+
+.d_240299 {
+    position: relative;
+    direction: inherit;
+    background-color: #fff;
+    margin-bottom: 16px;
+    font-family: 'Minion Pro';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.d_240300 {
+    min-height: 2px;
+    padding: 10px;
+}
+/*card body*/
+
+.d_240301 {
+    border: 5px solid ridge #ffff;
+    border-style: inset;
+    float: right;
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-size: 15px;
+    color: #2F4F4F;
+}
+
+
+
+/* FINISH: Designer and Warning Box */
+
+
+
+.img_240298 {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+
+    .img_240298 img {
+        display: block;
+        margin: -600px -3230px;  
+    }
+
+
+
+
+.mrgn-btm {
+    margin-bottom: 16px;
+}
+/*form range*/
+
+
+.date {
+    float: right;
+    color: #6c757d;
+    font-family: 'Arial';
+}
+
+
+.text-name {
+    color: #145A32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}
+
+
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+
+.foto-date {
+    float: left;
+    color: #6c757d;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.foto-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.knny-table {
+    border: 1px solid #D7DBDD;
+}
+
+
+
+/*---------------------------------*/
+
+.r_240298 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+}
+/*container*/
+
+
+.r_240298_1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+}
+/*container for map*/
+
+
+
+
+
+
+.r_240299 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/*row*/
+
+
+
+.r_240300 {
+    position: center;
+    width: 110%;
+    padding-right: 15px;
+    padding-left: 212px;
+    padding-bottom: 12px;
+    max-width: 66%;
+}
+/*column*/
+
+.r_240300_1 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 210px;
+    max-width: 66%;
+}
+/*column for map*/
+
+
+
+.r_240301 {
+    position: relative;
+    direction: inherit;
+    background-color: #fff;
+}
+/*card*/
+
+.r_240302 {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #1C2833;
+    color: #fff;
+}
+/*card header*/
+
+
+
+
+.r_240303 {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid ridge #ced4da;
+}
+/*Boxes*/
+
+
+
+
+
+.r_240304 {
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #59a1ad;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.25;
+    border-radius: 5px;
+}
+/*Login - Register - Share*/
+
+
+
+.r_240305 {
+    margin-bottom: 0;
+    text-align: start;
+    margin-top: 6px;
+}
+/*Hesabin var mi yok mu ?*/
+
+
+.r_240306 {
+    border: 1px solid #ffff;
+    border-style: ridge;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 15px;
+    color: #59a1ad;
+}
+
+
+
+.r_240307 {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.r_240307_1 {
+    position: relative;
+    width: 100%;
+    max-width: 33%;
+}
+
+.r_240308 {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+/*list*/
+
+
+.r_240309 {
+    position: relative;
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+}
+/*list item*/
